@@ -2,11 +2,12 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-  cloud {
+  // HCP account
+  /*cloud {
     workspaces {
       name = "learn-terraform-module-object-attributes"
     }
-  }
+  }*/
 
   required_providers {
     aws = {
